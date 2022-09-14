@@ -3,4 +3,4 @@ diffusers==0.3.0
 scipy
 fire
 gradio
--e git+ssh://git@github.com:ipsin/discokeyframe.git
+git+https://github.com/ipsin/discokeyframe.git@HEAD#egg=discokeyframe
