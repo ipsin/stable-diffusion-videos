@@ -71,8 +71,7 @@ def make_video_ffmpeg(frame_dir, output_file_name='output.mp4', frame_filename="
 
 
 def walk(
-    prompts=["blueberry spaghetti", "strawberry spaghetti"],
-    seeds=[42, 123],
+    keyframer,
     num_steps=5,
     output_dir="dreams",
     name="berry_good_spaghetti",
